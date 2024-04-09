@@ -1136,7 +1136,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract Tuesday is ERC20, Ownable {
+contract bnice is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1145,7 +1145,7 @@ contract Tuesday is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string exchangeLink = "https://app.uniswap.or/swap";
-    string websiteLink = "https://DrewRoberts.com";
+    string websiteLink = "https://base.bnice";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1199,7 +1199,7 @@ contract Tuesday is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("Tuesday", "TUES") {
+    constructor() ERC20("BNice", "BNICE") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
