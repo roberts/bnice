@@ -1,6 +1,10 @@
 /**
  *
  *
+   https://base.bnice
+   https://x.com/bnice
+   https://t.me/bnice
+
    Contract features:
    100,000,000 tokens
    3% buy tax in ETH sent to community, marketing & developer
